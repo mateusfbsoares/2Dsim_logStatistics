@@ -1,0 +1,17 @@
+requisitos:
+calculaPosseGeral() -->cria um vetor em cada robô contendo o dado de se ele está ou não em posse da bola em cada ciclo
+calculaChutesEGols() -->calcula o número de chutes ao gol e de gols de cada robo e time e salva nos próprios objetos
+calculaEfetiviadeRobo(robo) -->calcula a taxa gols/chutesAoGol em porcentagem, retorna e guarda no próprio objeto
+calculaEfetividadeTime(time) --> mesmo que o de cima, só que com times
+periculosidadeRobo(robo) --> calcula, salva e retorna o quanto um jogador tenta fazer gols (sua agressividade)
+periculosidadeTime(time) --> || com times
+
+estatisticas:
+calculaDistanciaPercorrida(robot) --> retorna a distância percorrida por um robo
+quemCorreuMais(team) --> retorna o robô que mais correu em um time
+posseAbsolutaRobo(robo) --> retorna a posse absoluta de um robô
+posseAbsolutaTime(team) --> retorna a posse absoluta de um time
+posseRelativaRobo_time(robo) --> retorna a posse relativa de um robo em relação ao seu time
+posseRelativaRobo_geral(robo) --> retorna a posse relativa de um robo em relação a todos os robos do jogo
+posseRelativaTime(time) --> retorna a posse de um time em relação à posse total dos dois times
+

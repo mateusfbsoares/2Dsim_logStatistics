@@ -1,0 +1,87 @@
+//Significados de cada atributo/propiedade deduzidos com ajuda da documentação do
+  "RoboCup soccer simulator documentation" (https://rcsoccersim.github.io/manual/index.html#)
+
+show_time --> tempo decorrido
+
+playmode --> modo de jogo: 
+			-kick_off_x --> - (jogo suspenso por 5 segundos; acontence antes do meio tempo ou depois de um gol)
+							- todos os jogadores devem estar no campo do seu time (se n estiverem, são forçados a estar)	
+
+team_name_l --> nome do time do campo esquerdo
+
+team_name_r --> nome do time do campo direito
+
+team_score_l --> número de gols (time l)
+
+team_score_r --> número de gols (time r)
+
+team_pen_score_l --> número de gols em pênaltis (time l)
+
+team_pen_score_r --> número de gols em pênaltis (time r)
+
+team_pen_miss_l --> número de erros em pênaltis (time l)
+
+team_pen_miss_r --> número de erros em pênaltis (time r)
+
+ball_x --> posição x da bola
+
+ball_y --> posição y da boa
+
+ball_vx --> velocidade horizontal da bola
+
+ball_vy --> velocidade vertical da bola
+
+player_l1_side --> lado do player (lado do seu time)
+
+player_l1_unum --> número do uniforme do jogador (jogador_1_unum = 1, jogador_2_unum = 2...)
+
+player_l1_type -->
+
+player_l1_state
+
+player_l1_x
+
+player_l1_y
+
+player_l1_vx
+
+player_l1_vy
+
+player_l1_body
+
+player_l1_neck
+
+player_l1_point_to_x
+
+player_l1_point_to_y
+
+player_l1_view_quality
+
+player_l1_view_width
+
+player_l1_attribute_stamina
+
+player_l1_attribute_effort
+
+player_l1_attribute_recovery
+
+player_l1_attribute_stamina_capacity
+
+player_l1_focus_side
+
+player_l1_focus_unum
+
+player_l1_counting_kick
+
+player_l1_counting_dash
+
+player_l1_counting_turn
+
+player_l1_counting_catch --> pegar a bola (só o goleiro pode)
+
+player_l1_counting_move
+
+player_l1_counting_turn_neck
+
+player_l1_counting_change_view
+
